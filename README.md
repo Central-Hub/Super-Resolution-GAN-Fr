@@ -28,8 +28,8 @@ Voici les résultats obtenus : On a l'image initiale basse résolution que l'on 
 
 ![Result1](https://github.com/Katalyse/Super-Resolution-GAN-Fr/blob/main/Image_Result/result_image_4.png)
 
-![Result2](https://github.com/Katalyse/Super-Resolution-GAN-Fr/tree/main/Image_Result/result_image_56.png)
+![Result2](https://github.com/Katalyse/Super-Resolution-GAN-Fr/blob/main/Image_Result/result_image_56.png)
 
-![Result3](https://github.com/Katalyse/Super-Resolution-GAN-Fr/tree/main/Image_Result/result_image_57.png)
+![Result3](https://github.com/Katalyse/Super-Resolution-GAN-Fr/blob/main/Image_Result/result_image_57.png)
 
-![Result4](https://github.com/Katalyse/Super-Resolution-GAN-Fr/tree/main/Image_Result/result_image_63.png)
+![Result4](https://github.com/Katalyse/Super-Resolution-GAN-Fr/blob/main/Image_Result/result_image_63.png)
