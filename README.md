@@ -10,7 +10,7 @@ Ce github est l'implémentation d'une variante du GAN qui se prénomme le SRGAN 
 
 ## Objectif du PoC
 
-L'objectif de l'algorithme est donc de faire de la super résolution d'images. L'algorithme reçoit en entrée une image de basse résolution et doit fournir en sortie une image de plus haute résolution. On parle de dépixélisation d'images. 
+L'objectif de l'algorithme est donc de faire de la super résolution d'images. L'algorithme reçoit en entrée une image de basse résolution et doit fournir en sortie une image de plus haute résolution.
 
 ## Data
 
