@@ -26,7 +26,7 @@ Le dataset est composé de 800 images pour l'entrainement du modèle et 100 imag
 
 Voici les résultats obtenus : On a l'image initiale basse résolution que l'on fournit au générateur, l'image renvoyée par le générateur (l'image provenant de la super résolution) et l'image haute résolution correspondante pour comparer visuellement la performance de l'algorithme.
 
-![Result1](https://github.com/Katalyse/Super-Resolution-GAN-Fr/tree/main/Image_Result/result_image_4.png)
+![Result1](https://github.com/Katalyse/Super-Resolution-GAN-Fr/blob/main/Image_Result/result_image_4.png)
 
 ![Result2](https://github.com/Katalyse/Super-Resolution-GAN-Fr/tree/main/Image_Result/result_image_56.png)
 
