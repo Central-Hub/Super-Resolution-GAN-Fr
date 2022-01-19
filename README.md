@@ -22,6 +22,8 @@ Le dataset est composé de 800 images pour l'entrainement du modèle et 100 imag
 
 ## Requierements
 
+Le fichier requirements.txt liste les librairies et les versions correspondantes utilisées pour exécuter le script. L'exécution du script en mode entrainment avec une NVIDIA Tesla M60 (dans le cloud Azure) prend une vingtaine d'heure.
+
 ## Exécution du projet
 
 Pour télécharger les données, vous pouvez utiliser le fichier download_data.ipynb. Ce sont simplement des commandes pour télécharger puis dézipper les quatre datasets (images d'entrainement basse résolution / haute résolution / images de test basse résolution / haute résolution.
