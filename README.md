@@ -14,10 +14,19 @@ L'objectif de l'algorithme est donc de faire de la super résolution d'images. L
 
 ## Data
 
-> Les données utilisées pour entrainer et tester l'algorithme proviennent du dataset div2k [DIV2K Dataset (ethz.ch)](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
+> Les données utilisées pour entrainer et tester l'algorithme proviennent du dataset div2k : [DIV2K Dataset (ethz.ch)](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
+
+Le dataset est composé de 800 images pour l'entrainement du modèle et 100 images de validation et de test.
 
 ## Fonctionnement de l'algorithme
 
 ## Exécution du projet
 
 ## Résultats obtenus
+
+Voici les résultats obtenus : On a l'image initiale basse résolution que l'on fournit au générateur, l'image renvoyée par le générateur (l'image provenant de la super résolution) et l'image haute résolution correspondante pour comparer visuellement la performance de l'algorithme.
+
+![Result1](https://github.com/Katalyse/Super-Resolution-GAN-Fr/Image_Result/result_image_4.png)
+![Result1](https://github.com/Katalyse/Super-Resolution-GAN-Fr/Image_Result/result_image_56.png)
+![Result1](https://github.com/Katalyse/Super-Resolution-GAN-Fr/Image_Result/result_image_57.png)
+![Result1](https://github.com/Katalyse/Super-Resolution-GAN-Fr/Image_Result/result_image_63.png)
