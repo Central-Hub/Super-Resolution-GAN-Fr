@@ -22,7 +22,7 @@ Le dataset est composé de 800 images pour l'entrainement du modèle et 100 imag
 
 Pour mieux comprendre le fonctionnement d'un GAN ou d'un SRGAN, je vous invite à lire cet article :
 
-Au niveau de l'implémentation, on a :
+Au niveau de l'implémentation :
 
 * la fonction load_dataset() récupère le nom de tous les fichiers du dossier donné en paramètre (il faut que ce dossier ne contient que les images que l'on souhaite utiliser dans l'algorithme). La fonction vient en suite charger les images, les resize selon le shape que l'on souhaite puis les transforme en numpy array. On renvoie une liste des images sous la forme numpy array
 * la fonction normalisation prend en entrée la liste des images et applique une normalisation pour que les pixels soient compris entre [-1,1] au lieu de [0,255]. Cela facilite l'apprentissage de l'algorithme
