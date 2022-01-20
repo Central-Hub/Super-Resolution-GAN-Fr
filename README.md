@@ -36,13 +36,13 @@ Au niveau de l'implémentation :
 
 ## Requierements
 
-Le fichier requirements.txt liste les librairies et les versions correspondantes utilisées pour exécuter le script. L'exécution du script en mode entrainment avec une NVIDIA Tesla M60 (dans le cloud Azure) prend une vingtaine d'heure.
+Le fichier requirements.txt liste les librairies et les versions correspondantes utilisées pour exécuter le script. En mode entrainment, la durée d'exécution du script avec une NVIDIA Tesla M60 (dans le cloud Azure) est d'une vingtaine d'heure (12 000 epochs).
 
 ## Exécution du projet
 
 Pour télécharger les données, vous pouvez utiliser le fichier download_data.ipynb. Ce sont simplement des commandes pour télécharger puis dézipper les quatre datasets (images d'entrainement basse résolution / haute résolution / images de test basse résolution / haute résolution.
 
-Une fois que les données sont à disposition on peut lancer le notebook SRGAN.ipynb. On a une fonction pour charger les données, une autre pour les normaliser. On a ensuite une fonction de scoring et d'affichage des données. On a trois fonctions pour créer les trois réseaux de neurones dont nous aurons besoin (le discriminateur, le générateur, le VGG) puis une fonction finale pour joindre les trois modèles et former le SRGAN. Enfin, on a la fonction d'entrainement de l'algorithme puis le main pour charger, normaliser puis soit entrainer le modèle soit utiliser le modèle déjà entrainé. En effet, vous pouvez aussi tester l'algorithme sans entrainement puisque les poids du générateur sont enregistrés dans le fichier au format .h5 disponible dans ce github. Il suffit de alors de créer le modèle et de charger ses poids pour éviter la phase d'entrainement de l'algorithme.
+Une fois que les données sont à disposition on peut lancer le notebook SRGAN.ipynb pour créer le modèle.
 
 ## Résultats obtenus
 
