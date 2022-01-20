@@ -20,6 +20,19 @@ Le dataset est composé de 800 images pour l'entrainement du modèle et 100 imag
 
 ## Fonctionnement de l'algorithme
 
+Pour mieux comprendre le fonctionnement d'un GAN ou d'un SRGAN, je vous invite à lire cet article :
+
+Au niveau de l'implémentation, on a :
+
+* la fonction load_dataset() récupère le nom de tous les fichiers du dossier donné en paramètre (il faut que ce dossier ne contient que les images que l'on souhaite utiliser dans l'algorithme). La fonction vient en suite charger les images, les resize selon le shape que l'on souhaite puis les transforme en numpy array. On renvoie une liste des images sous la forme numpy array
+* la fonction normalisation prend en entrée la liste des images et applique une normalisation pour que les pixels soient compris entre [-1,1] au lieu de [0,255]. Cela facilite l'apprentissage de l'algorithme
+* la fonction prediction_et_resultat_plot prend en entrée les deux bases de test et le generateur. On tire aléatoirement un certain nombre d'images dans les deux bases de test. Si on est en mode "entrainement", on prédit les images à l'aide du générateur. Si l'on est en mode "prediction", on charge les poids du generateur pour obtenir le generateur entrainé puis on prédit. On dénormalise les images puis on peut afficher les trois images côte à côte (l'image basse résolution, l'image générée et l'image haute résolution).
+* la fonction creation_vgg() charge le réseau VGG déjà entrainé (une fonction existe sous Keras)
+* les fonctions creation_discriminateur() et creation_generateur() sont les réseaux de neurones décrit ci-desssous en provenant du papier de recherche officiel du SRGAN.
+![Result1](https://github.com/Katalyse/Super-Resolution-GAN-Fr/blob/main/Image_Readme/SRGAN_architecture.png)
+* la fonction creation_SRGAN() regroupe les trois modèles distincts pour former le SRGAN
+* la fonction train() est la fonction d'entrainement. on fait une boucle suivant le nombre d'epochs. Pour chaque itération, on tire un certain nombre d'images dans la base d'entrainement. On prédit les images basses résolutions puis on entraine le discriminateur avec les images réelles et générées. On tire un nouveau jeu d'images dans la base d'entrainement puison entraine notre SRGAN pour entrainer notre générateur. On affiche les résultats au cours de l'exécution et on sauvegarde les poids des modèles.
+
 ## Requierements
 
 Le fichier requirements.txt liste les librairies et les versions correspondantes utilisées pour exécuter le script. L'exécution du script en mode entrainment avec une NVIDIA Tesla M60 (dans le cloud Azure) prend une vingtaine d'heure.
