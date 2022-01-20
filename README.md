@@ -46,7 +46,7 @@ Une fois que les données sont à disposition on peut lancer le notebook SRGAN.i
 
 ## Résultats obtenus
 
-Voici les résultats obtenus : On a l'image initiale basse résolution que l'on fournit au générateur, l'image renvoyée par le générateur (l'image provenant de la super résolution) et l'image haute résolution correspondante pour comparer visuellement la performance de l'algorithme.
+Voici les résultats obtenus : On a l'image initiale basse résolution que l'on fournit au générateur, l'image renvoyée par le générateur (l'image provenant de la super résolution) et l'image haute résolution correspondante pour évaluer visuellement la performance de l'algorithme.
 
 ![Result1](https://github.com/Katalyse/Super-Resolution-GAN-Fr/blob/main/Image_Result/result_image_4.png)
 
