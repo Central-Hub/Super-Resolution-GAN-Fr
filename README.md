@@ -18,7 +18,7 @@ L'objectif de l'algorithme est donc de faire de la super résolution d'images. L
 
 Le dataset est composé de 800 images pour l'entrainement du modèle et 100 images de validation et de test.
 
-## Fonctionnement de l'algorithme
+## Implémentation de l'algorithme
 
 Pour mieux comprendre le fonctionnement d'un GAN ou d'un SRGAN, je vous invite à lire cet article :
 
