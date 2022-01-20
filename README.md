@@ -4,7 +4,7 @@ Présentation et implémentation d'un algorithme de deep learning appartenenant 
 
 ## Introduction GAN
 
-Ce github est l'implémentation d'une variante du GAN qui se prénomme le SRGAN (Super Resolution GAN).  C'est un algorithme conçu pour un cas d'utilisation précis : la dépixélistaion d'images. On parle également de super résolution d'images. On note qu'il **existe** une multitude de variante au GAN tel que le StyleGAN ou le CycleGAN. Chaque algorithme est spécifique à un cas d'utilisation. 
+Ce github est l'implémentation d'une variante du GAN qui se prénomme le SRGAN (Super Resolution GAN).  C'est un algorithme conçu pour un cas d'utilisation précis : la dépixélistaion d'images. On parle également de super résolution d'images. On note qu'il existe une multitude de variante au GAN tel que le StyleGAN ou le CycleGAN. Chaque algorithme est spécifique à un cas d'utilisation. 
 
 > Ce projet est l'implémentation de l'algorithme du SRGAN décrit dans ce papier scientifique : [[1609.04802] Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network (arxiv.org)](https://arxiv.org/abs/1609.04802)
 
