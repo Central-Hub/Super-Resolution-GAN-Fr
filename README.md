@@ -32,6 +32,7 @@ Au niveau de l'implémentation, on a :
 ![Result1](https://github.com/Katalyse/Super-Resolution-GAN-Fr/blob/main/Image_Readme/SRGAN_architecture.png)
 * la fonction creation_SRGAN() regroupe les trois modèles distincts pour former le SRGAN
 * la fonction train() est la fonction d'entrainement. on fait une boucle suivant le nombre d'epochs. Pour chaque itération, on tire un certain nombre d'images dans la base d'entrainement. On prédit les images basses résolutions puis on entraine le discriminateur avec les images réelles et générées. On tire un nouveau jeu d'images dans la base d'entrainement puison entraine notre SRGAN pour entrainer notre générateur. On affiche les résultats au cours de l'exécution et on sauvegarde les poids des modèles.
+* Enfin, on a le main qui appelle l'ensemble des fonctions.
 
 ## Requierements
 
