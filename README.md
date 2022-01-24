@@ -40,7 +40,7 @@ Le fichier requirements.txt liste les librairies et les versions correspondantes
 
 ## Exécution du projet
 
-Pour télécharger les données, vous pouvez utiliser le fichier download_data.ipynb. Ce sont simplement des commandes pour télécharger puis dézipper les quatre datasets (images d'entrainement basse résolution / haute résolution / images de test basse résolution / haute résolution.
+Pour télécharger les données, vous pouvez utiliser le fichier download_data.ipynb. Ce sont simplement des commandes pour télécharger puis dézipper les quatre datasets (images d'entrainement basse résolution / haute résolution / images de test basse résolution / haute résolution).
 
 Une fois que les données sont à disposition on peut lancer le notebook SRGAN.ipynb pour créer le modèle.
 
