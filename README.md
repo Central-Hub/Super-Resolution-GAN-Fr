@@ -1,6 +1,6 @@
 # Super Resolution GAN - Français
 
-Présentation et implémentation d'un algorithme de deep learning appartenenant à la famille des GANs (Generative Adversarial Networks)
+Présentation et implémentation d'un algorithme de deep learning appartenenant à la famille des GANs (Generative Adversarial Networks) / (Utilisation de Tensorflow / Keras)
 
 ## Introduction GAN
 
